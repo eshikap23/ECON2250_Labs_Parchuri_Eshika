@@ -105,6 +105,8 @@ Now, we are going to learn how to collaborate using GitHub. Follow these steps:
 
 Type line below here:
 
+Victoria was here.
+
 **To complete these exercise, you have to have at least one contributions from your teammates in your repository.**
 
 # Exercise 3: Creating Descriptive Statistics
@@ -445,7 +447,7 @@ To submit your assignment:
 # Grading
 
 | Component                                                          | Points |
-|:---------------------------------------------------------|:-------------|
+|:------------------------------------------------------|:----------------|
 | Exercise 1                                                         | 5      |
 | Exercise 2                                                         | 5      |
 | Exercise 3                                                         | 80     |
