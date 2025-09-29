@@ -101,7 +101,7 @@ Now, we are going to learn how to collaborate using GitHub. Follow these steps:
 
     Then in RStudio, go to *File* $\rightarrow$ *New Project* $\rightarrow$ *Version Control* $\rightarrow$ *Git* and paste the Repository URL, and place it in a different folder than your original Rproject. Open the new R project in new window so that you keep your own project open.
 
-3.  Now we can try several command in the Terminal: `git status`, `git commit`, `git push`, `git fetch`, and `git push`. See [here](https://rviews.rstudio.com/2020/04/23/10-commands-to-get-started-with-git/) if you want to know more than this. Now, let's try to type something below in your collaborators repository, then commmit, and push it. Check your repo as well.
+3.  Now we can try several command in the Terminal: `git status`, `git commit`, `git push`, `git fetch`, and `git push`. See [here](https://rviews.rstudio.com/2020/04/23/10-commands-to-get-started-with-git/) if you want to know more than this. Now, let's try to type something below in your collaborators repository, then commit, and push it. Check your repo as well.
 
 Type line below here:
 
@@ -404,6 +404,12 @@ There is website that host a collection of beautiful charts you might want to vi
 ```{r, echo=T, eval=T}
 #| label: r graph gallery replication 2
 
+# create sample count table for race and labor-force status variables
+tbl_agelf <- table(cps$age, cps$lfstatus)
+# barplot command --- categories on x-axis are based upon columns (lfstatus) of the table
+barplot(prop.table(tbl_agelf, margin=1), ylim=c(0,0.8), col=c("gray30","gray50", "gray70"),
+legend.text=rownames(tbl_racelf), beside=TRUE, main="")
+
 ```
 
 # Wrapping up
@@ -439,7 +445,7 @@ To submit your assignment:
 # Grading
 
 | Component                                                          | Points |
-|:-------------------------------------------------------------------|:-------|
+|:---------------------------------------------------------|:-------------|
 | Exercise 1                                                         | 5      |
 | Exercise 2                                                         | 5      |
 | Exercise 3                                                         | 80     |
