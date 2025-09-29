@@ -103,7 +103,7 @@ Now, we are going to learn how to collaborate using GitHub. Follow these steps:
 
 3.  Now we can try several command in the Terminal: `git status`, `git commit`, `git push`, `git fetch`, and `git push`. See [here](https://rviews.rstudio.com/2020/04/23/10-commands-to-get-started-with-git/) if you want to know more than this. Now, let's try to type something below in your collaborators repository, then commit, and push it. Check your repo as well.
 
-Type line below here: Emily was here
+Type line below here: Emily was here!
 
 Victoria was here.
 
@@ -447,7 +447,7 @@ To submit your assignment:
 # Grading
 
 | Component                                                          | Points |
-|:------------------------------------------------------|:----------------|
+|:-----------------------------------------------------|:-----------------|
 | Exercise 1                                                         | 5      |
 | Exercise 2                                                         | 5      |
 | Exercise 3                                                         | 80     |
