@@ -15,6 +15,6 @@ countries$GINI_Index <- as.numeric(countries$GINI_Index)
 
 
 ghg_test <- cor.test(countries$GINI_Index, countries$GHG_Emission_Per_Capita,
-                 alternative = "less",
+                 alternative = "greater",
                  method = "pearson")
 ghg_test
