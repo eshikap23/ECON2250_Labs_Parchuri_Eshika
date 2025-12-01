@@ -1,0 +1,35 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+```{r}
+ggplot(EconStats, aes(x = `GDP per capita growth`, y = `GHG Emissions Per Capita`)) + geom_point(color="#CC3300") + labs(x="2022 GDP Per Capita Growth (% change)", y="2022 GHG Emissions Per Capita (tons)")
+
+
+cor.test(EconStats$`GDP per capita growth`, EconStats$`GHG Emissions Per Capita`, use = "complete.obs")
+
+
+EconStats$`GDP per capita` <- as.numeric(EconStats$`GDP per capita`)
+ggplot(EconStats, aes(x = `GDP per capita`, y = `GHG Emissions Per Capita`)) + geom_point(color="#CC3300") + labs(x = "2022 GDP Per Capita (current USD)", y = "2022 GHG Emissions Per Capita (tons)") + scale_x_continuous(
+    breaks = seq(
+      from = floor(min(EconStats$`GDP per capita`, na.rm = TRUE) / 10000) * 10000,
+      to   = ceiling(max(EconStats$`GDP per capita`, na.rm = TRUE) / 10000) * 10000,
+      by   = 10000
+    )
+  )
+
+
+cor.test(EconStats$`GDP per capita`, EconStats$`GHG Emissions Per Capita`, use = "complete.obs")
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
