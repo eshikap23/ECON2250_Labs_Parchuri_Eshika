@@ -16,7 +16,7 @@ Initial data analysis and scatter plot visualization indicated a possible, very 
 
 Figure 1: Gini Index vs GHG Emissions Per Capita
 
-![](images/GHG emissions vs GINI index scatter plot.png){fig-align="center"}
+![](images/GHG%20emissions%20vs%20GINI%20index%20scatter%20plot.png){fig-align="center"}
 
 Figure 2: GDP Per Capita vs GHG Emissions Per Capita
 
