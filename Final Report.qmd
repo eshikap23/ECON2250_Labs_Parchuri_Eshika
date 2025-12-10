@@ -7,9 +7,10 @@ editor: visual
 ## Final Report
 
 ### Introduction and Data
-Climate change is one of the world’s most pressing issues, and it is unique in the way it will affect every country in the world, regardless of their contribution to the issue. Because of this, questions of who should pay for carbon abatement, climate mitigation and adaptation inevitably arise during international climate negotiations. To inform these decisions, we sought to answer the question: Is economic development correlated with increased greenhouse gas emissions? To answer this central question, we explored the relationship between key indicators of economic development and countries’ greenhouse gas (GHG) emissions using descriptive statistics and hypothesis testing. 
 
-The data used in our analysis is from the World Bank’s public datasets: the World Bank Corporate Scorecard and the World Development Indicators. The four variables analyzed in our research were GHG emissions per capita – our outcome variable, and gross domestic product (GDP) per capita, GDP per capita growth (over one year), and countries’ Gini Index – our predictor variables. All data used is from 2022, as this was the year with the most data points for all four variables. GDP per capita is measured in 2025 US dollars. GDP per capita growth is measured as the percent change in a country's GDP per capita from 2021 to 2022. The Gini Index provides relative scores of economic inequality ranging from 1 to 100, with 100 indicating perfect inequality and 1, perfect equality. GHG emissions per capita are measured as a country’s total emissions (in tons) per person of carbon dioxide, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons and sulphurhexafluoride emissions standardized to CO₂ equivalent values. 
+Climate change is one of the world’s most pressing issues, and it is unique in the way it will affect every country in the world, regardless of their contribution to the issue. Because of this, questions of who should pay for carbon abatement, climate mitigation and adaptation inevitably arise during international climate negotiations. To inform these decisions, we sought to answer the question: Is economic development correlated with increased greenhouse gas emissions? To answer this central question, we explored the relationship between key indicators of economic development and countries’ greenhouse gas (GHG) emissions using descriptive statistics and hypothesis testing.
+
+The data used in our analysis is from the World Bank’s public datasets: the World Bank Corporate Scorecard and the World Development Indicators. The four variables analyzed in our research were GHG emissions per capita – our outcome variable, and gross domestic product (GDP) per capita, GDP per capita growth (over one year), and countries’ Gini Index – our predictor variables. All data used is from 2022, as this was the year with the most data points for all four variables. GDP per capita is measured in 2025 US dollars. GDP per capita growth is measured as the percent change in a country's GDP per capita from 2021 to 2022. The Gini Index provides relative scores of economic inequality ranging from 1 to 100, with 100 indicating perfect inequality and 1, perfect equality. GHG emissions per capita are measured as a country’s total emissions (in tons) per person of carbon dioxide, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons and sulphurhexafluoride emissions standardized to CO₂ equivalent values.
 
 Initial data analysis and scatter plot visualization indicated a possible, very weak, negative linear relationship between the Gini index and GHG emissions, as shown in Figure 1 below. Figure 2 shows an apparent positive correlation between GDP per capita and GHG emissions per capita. Intuitively, you would expect that if GHG emissions per capita increase as GDP per capita increases, then emissions will also increase as GDP growth increases. However, Figure 3 shows no clear linear relationship between GHG emissions per capita and the percent change in GDP per capita.
 
@@ -17,8 +18,11 @@ Figure 1: Gini Index vs GHG Emissions Per Capita
 
 Figure 2: GDP Per Capita vs GHG Emissions Per Capita
 
+![](Plot GDP vs Emissions.png)
+
 Figure 3: GDP Per Capita Growth vs GHG Emissions Per Capita
 
+![](Plot GDP Growth vs Emissions.png)
 
 ### Methodology
 
