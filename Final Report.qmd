@@ -21,11 +21,11 @@ Figure 1: Gini Index vs GHG Emissions Per Capita
 
 Figure 2: GDP Per Capita vs GHG Emissions Per Capita
 
-![](Plot%20GDP%20vs%20Emissions.png)
+![](images/gdp vs ghg emissions.png){fig-align="center" width="555"}
 
 Figure 3: GDP Per Capita Growth vs GHG Emissions Per Capita
 
-![](Plot%20GDP%20Growth%20vs%20Emissions.png)
+![](images/gdp growth vs ghg emissions.png){fig-align="center" width="555"}
 
 ### Methodology
 
