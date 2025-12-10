@@ -1,0 +1,25 @@
+---
+title: "Final Report"
+format: html
+editor: visual
+---
+
+## Final Report
+
+### Introduction and Data
+
+### Methodology
+
+The first part of the process in hypothesis testing was to create the data set with all the variables. Initially, there were three original data sets for each of the variables to be tested: GINI index, GDP per capita, and GDP per capita growth. To be as current as possible but also consistent, for each variable only the data from the year 2022 was selected. The data was then cleaned, filtered to remove any invalid or missing entries, and then merged into a new Excel file that was used to perform the hypothesis tests and linear regressions.
+
+The hypothesis test used for this research was a one-tailed t-test which uses the t-statistic to determine id the correlation differs significantly from zero. This test assumes that the data/observations are randomly sampled, independent, continuous, and normaly distrubuted. For each of the variables the following hypotheses were used:
+
+-   **Null hypothesis**: (H0 = 0) There is no correlation between the variable and the greenhouse gas emissions per capita.
+
+-   **Alternative hypothesis**: (H0 \> 0) There is a positive correlation between the variable and greenhouse gas emissions per capita.
+
+More specifically, a right-tailed t-test was chosen because the expectation was for there to be a positive relation between the independent variables and greenhouse gas emissions per capita. This aligns with the premise of this research project which was to determine whether countries with more wealth also tend to produce higher levels greenhouse gas emissions.
+
+### Results
+
+### Discussion & Conclusion
