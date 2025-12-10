@@ -31,7 +31,7 @@ Figure 3: GDP Per Capita Growth vs GHG Emissions Per Capita
 
 The first part of the process in hypothesis testing was to create the data set with all the variables. Initially, there were three original data sets for each of the variables to be tested: GINI index, GDP per capita, and GDP per capita growth. To be as current as possible but also consistent, for each variable only the data from the year 2022 was selected. The data was then cleaned, filtered to remove any invalid or missing entries, and then merged into a new Excel file that was used to perform the hypothesis tests and linear regressions.
 
-The hypothesis test used for this research was a one-tailed t-test which uses the t-statistic to determine id the correlation differs significantly from zero. This test assumes that the data/observations are randomly sampled, independent, continuous, and normaly distrubuted. For each of the variables the following hypotheses were used:
+The hypothesis test used for this research was a one-tailed t-test which uses the t-statistic to determine id the correlation differs significantly from zero. This test assumes that the data/observations are randomly sampled, independent, continuous, and normally distributed. For each of the variables the following hypotheses were used:
 
 -   **Null hypothesis**: (H0 = 0) There is no correlation between the variable and the greenhouse gas emissions per capita.
 
